@@ -7,7 +7,7 @@ body {
 }
 
 header, footer {
-  background-color: #eee; 
+  background-color: #eeeeeeb4; 
   padding: 1em;
 }
 
@@ -23,7 +23,35 @@ article {
   flex: 2;
   background-color: #fafafa; 
   padding: 1em;
-  overflow-y: auto; }
+  overflow-y: auto;
+}
+
+article h1, article h2, article h3 {
+  color: #0077cc;       
+  margin-bottom: 0.5em;
+}
+
+article p {
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+article table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1em;
+}
+
+article table th, article table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+article table th {
+  background-color: #f0f0f0ea;
+}
+
 
 aside {
   flex: 1;
@@ -37,3 +65,8 @@ footer {
   padding: 1em;
   text-align: center;
 }
+
+.logo {
+  font-size: 2rem;       
+  margin-right: 10px;    
+  color: #ff6600; }
