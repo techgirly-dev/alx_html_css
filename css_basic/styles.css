@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header, footer {
+  background-color: #eee; 
+  padding: 1em;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto; 
+  padding: 1em;
+  gap: 1em; 
+}
+
+article {
+  flex: 2;
+  background-color: #fafafa; 
+  padding: 1em;
+  overflow-y: auto; }
+
+aside {
+  flex: 1;
+  background-color: #f0f0f0; 
+  padding: 1em;
+  overflow-y: auto;
+}
+
+footer {
+  background-color: #eee;
+  padding: 1em;
+  text-align: center;
+}
