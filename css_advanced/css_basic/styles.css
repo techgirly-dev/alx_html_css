@@ -1,0 +1,192 @@
+@font-face{
+  font-family: 'Poppins';
+src: url('../css/Fonts/poppins/Poppins-Regular.otf') format('opentype');
+font-weight: 400;
+}
+@font-face{
+  font-family: 'Montserrat';
+  src: url('../css/Fonts/Montserrat-Bold.otf') format('opentype');
+  font-weight: 700; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ===== HEADER / HERO AREA ===== */
+header {
+  position: relative;
+  background-image: url("../css/images/object.png"); /* make sure this path is correct */
+  background-size: cover;
+  background-position: center 55%; /* adjust to show neck area */
+  background-repeat: no-repeat;
+  height: 140vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* ===== HERO CONTENT ===== */
+.hero {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.hero h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+margin-bottom: 5px;
+  text-transform: none; /* so it's not all uppercase */
+}
+
+.hero .tagline {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background: #c271ff;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 70px;
+  transition: background 0.3s;
+}
+
+.hero .btn:hover {
+  background: #a349d9;
+}
+
+/* ===== LEARN + PROS ===== */
+.learn {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.learn span:first-child {
+  color: #071629; /* blue */
+}
+
+.learn span:last-child {
+  color: white;
+}
+
+.pro-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.pro {
+  text-align: center;
+}
+
+.pro img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.pro h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.pro p {
+  font-size: 13px;
+  color: white;
+  line-height: 1.3;
+  margin: 0;
+}
+
+/* ===== LEARN + PROS inside header ===== */
+.learn {
+  font-size: 2; 
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.learn span:first-child{
+  color: #8A2BE2;
+  font-weight: bold;
+}
+.learn span:last-child{
+  color: white;
+  font-weight: 400 !important;
+}
+.pro-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.pro{
+  text-align: center;
+}
+.pros {
+  text-align: center;
+  margin-bottom: 60px;
+
+}
+.pro img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.pro h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+.pro p {
+  font-size: 13px;
+  color: #ccc;
+  line-height: 1.3;
+margin: 0;
+}
