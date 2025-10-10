@@ -318,3 +318,25 @@ margin: 0;
   font-size: 14px;
   color: #C271FF;
 }
+/* === Author name color === */
+.author h4 {
+  color: #C271FF; /* make Phillip Massey purple */
+  font-weight: 600;
+}
+.name {
+  color: purple;
+  font-weight: bold;
+}
+
+.star {
+  font-size: 20px;
+}
+
+.purple {
+  color:  #C271FF; 
+}
+
+.gray {
+  color: gray; /* you can change this to #ccc or #999 for a softer ash */
+}
+
