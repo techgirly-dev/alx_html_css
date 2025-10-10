@@ -8,6 +8,8 @@ font-weight: 400;
   src: url('../css/Fonts/Montserrat-Bold.otf') format('opentype');
   font-weight: 700; 
 }
+@import url('https://fonts.googleapis.com/css2?family=Sans+Serif+Amin+Akin&display=swap');
+
 
 body {
   display: flex;
@@ -400,4 +402,43 @@ margin: 0;
 
 .register-btn:hover {
   background-color: #a349d9;
+}
+.faq {
+  background-color: #ffffff;
+  padding: 100px 0;
+  text-align: center;
+  font-family: 'Source Sans Pro';
+  line-height: 20px;
+  font-style: normal;
+  font-size: 16px;
+  color: #071629;
+}
+
+.faq h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #071629;
+  margin-bottom: 60px;
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 100px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.faq-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #071629;
+  margin-bottom: 15px;
+}
+
+.faq-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #6c757d;
 }
