@@ -339,4 +339,65 @@ margin: 0;
 .gray {
   color: gray; /* you can change this to #ccc or #999 for a softer ash */
 }
+.membership {
+  text-align: center;
+  background-color: #071629;
+  color: white;
+  padding: 80px 0;
+}
 
+.membership h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.membership h2 span {
+  color: #c271ff;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center; /* centers all cards */
+  align-items: flex-start;
+  gap: 40px; /* space between each card */
+  flex-wrap: wrap; /* ensures responsiveness */
+}
+
+.card {
+  width: 220px;
+  text-align: center;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.register-btn {
+  margin-top: 40px;
+  background-color: #c271ff;
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #a349d9;
+}
